@@ -1,6 +1,2 @@
 streamlit==1.12.2
-<<<<<<< HEAD
 yfinance==0.1.74
-=======
-yfinance==0.1.74
->>>>>>> fede4084ecf8ca424cbc5eb6ca6c54224f5dd946
