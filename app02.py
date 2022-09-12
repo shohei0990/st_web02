@@ -120,7 +120,7 @@ try:                                                    # 何かerrorが起き�
             .encode(
                 x="Date:T",
                 y=alt.Y("Stock Prices(円):Q", stack=None, scale=alt.Scale(domain=[ymin, ymax])),
-                color='Name:N'
+                color='value:N'
             )
     )
     st.altair_chart(chart2, use_container_width=True)
